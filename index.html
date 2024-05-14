@@ -6,41 +6,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
   <style>
     body,
     h1 {
-      font-family: "Raleway", sans-serif
+      font-family: "Sedan SC", "serif"
     }
+    
 
     body,
     html {
       height: 100%
     }
 
-    .bgimg {
-      background-image: url('https://images.unsplash.com/photo-1711299253442-de19d4dacaae?q=80&w=2675&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-      min-height: 100%;
-      background-position: center;
-      background-size: cover;
-    }
   </style>
 </head>
 
 <body>
-  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-      <b>ThuHuong</b>
-    </div>
-    <div class="w3-display-middle">
-      <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-      <hr class="w3-border-grey" style="margin:auto;width:40%">
-      <p class="w3-large w3-center">10 days left</p>
-    </div>
+<!-- banner -->
+<section class="min-h-screen w-full flex flex-col justify-center items-center relative bg-[url('/images/BG_img.jpg')] bg-cover bg-center hover:bg-white">
+  <div class="w-full lg:w-[80%] p-12 text-gray-800 relative z-10">
+    <h1 class="lowercase text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
+      <span>Hi, my name is <span class="text-red-900">Huong Duong Thu</span></span>
+      <span class="text-gray-800">I'm the Data Analyst.</span>
+    </h1>
+    <a href="#about-me" class="uppercase border-2 border-red-900 p-3 hover:bg-red-800 hover:text-white transition-colors cursor-pointer">
+      <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-bold focus:outline-none focus:ring focus:ring-teal-300">Know more</span>
+    </a>
   </div>
-  <div class="flex flex-row justify-center items-center p-12">
-    <h1 class="text-5xl text-green-300 animate-bounce">Hello, Tailwind CSS</h1>
-  </div>
+  <div class="absolute inset-0 bg-white opacity-70"></div>
+</section>
+<!-- banner ./ -->
+
+
   <script type="module" src="/src/scripts/application.js"></script>
 </body>
 </html>
