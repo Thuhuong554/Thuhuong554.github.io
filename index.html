@@ -7,10 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
   <style>
     body,
-    h1,h2 {
-      font-family: "Sedan SC", "serif"
+    h1,h2{
+      font-family: "Sedan SC", serif;
+    }
+
+    p{
+      font-family: "Lora", serif ;
     }
     
     body,
@@ -27,10 +32,10 @@
   <div class="w-full lg:w-[80%] p-12 text-gray-800 relative z-10">
     <h1 class="lowercase text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
       <span>Hi, my name is <span class="text-red-900">Huong Duong Thu</span></span>
-      <span class="text-gray-800">I'm the Data Analyst.</span>
+      <span class="text-gray-800">I'm the Business Analyst.</span>
     </h1>
     <a href="#about-me" class="uppercase border-2 border-red-900 p-3 hover:bg-red-800 hover:text-white transition-colors cursor-pointer">
-      <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-bold focus:outline-none focus:ring focus:ring-teal-300">Know more</span>
+      <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-bold focus:outline-none focus:ring focus:ring-red-300">Know more</span>
     </a>
   </div>
   <div class="absolute inset-0 bg-white opacity-70"></div>
@@ -38,9 +43,28 @@
 <!-- banner ./ -->
 
 <!-- about me -->
-<section id="about-me" class="relative bg-forest hover:bg-forest w-full flex flex-col justify-center items-center py-6 px-8 lg:p-12 text-white ">
+<section id="about-me" class="relative bg-forest hover:bg-forest w-full flex flex-col justify-center items-center py-10 px-8 lg:p-12 text-white ">
   <div class="w-full lg:w-[60%] mb-5 z-10">
-    <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-10">About Me</h2>
+    <h2 class="uppercase text-2xl lg:text-5xl text-center font-bold text-white mb-15">About Me</h2>
+    <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
+      <div class="flex justify-center items-center text-center col-span-1 pt-7 lg:pt-10">
+        <img class="object-cover max-w-xs lg:w-auto" src="/images/my_avatar.jpg" title="My avatar" style="border-radius: 5%" alt="My avatar" />
+      </div>
+      <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
+        <div class="p-0 text-center lg:p-8 lg:text-start">
+          <p class="pb-3 text-lg font-light pt-5 mb-5">
+            Enthusiastic about the prospect of a Business Analyst internship, 
+            I'm eager to channel my analytical prowess and innovative mindset into practical scenarios. 
+            With a keen eye for detail and a knack for problem-solving, I'm poised to adapt swiftly and contribute meaningfully to the team's objectives.
+          </p>
+          <a href="https://drive.google.com/file/d/1VmoaIp9UqucWZG-kLoYnfVFE5ExzfMAX/view?usp=sharing"
+            target="_blank"
+            class="uppercase border-2 border-white p-3 text-white hover:bg-white hover:text-red-800 transition-colors cursor-pointer">
+            <span class="text-xl pl-8 pr-8 pt-3 pb-3 font-normal focus:outline-none focus:ring focus:ring-red-300">View My CV</span>
+          </a>
+        </div>
+      </div>
+    </div>
     
   </div>
   <div class="absolute inset-0 bg-white opacity-25 z-0"></div>
