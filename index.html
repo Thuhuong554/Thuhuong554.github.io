@@ -28,7 +28,7 @@
 
 <body>
 <!-- banner -->
-<section class="min-h-screen w-full flex flex-col justify-center items-center relative bg-[url('/images/BG_img.jpg')] bg-cover bg-center hover:bg-white">
+<section class="min-h-screen w-full flex flex-col justify-center items-center relative bg-[url('/images/BG_img.jpg')] bg-cover bg-center">
   <div class="w-full lg:w-[80%] p-12 text-gray-800 relative z-10">
     <h1 class="lowercase text-6xl font-bold mb-10 grid grid-col-1 lg:gap-5">
       <span>Hi, my name is <span class="text-red-900">Huong Duong Thu</span></span>
@@ -43,11 +43,11 @@
 <!-- banner ./ -->
 
 <!-- about me -->
-<section id="about-me" class="relative bg-forest hover:bg-forest w-full flex flex-col justify-center items-center py-10 px-8 lg:p-24 text-white ">
+<section id="about-me" class="relative min-h-[75vh] bg-forest w-full flex flex-col justify-center items-center py-10 px-8 lg:p-24 text-white ">
   <div class="w-full lg:w-[60%] mb-15 z-20">
-    <h2 class="uppercase text-3xl lg:text-5xl text-center font-bold text-white mb-15 lg:pb-5">About Me</h2>
+    <h2 class="uppercase text-3xl lg:text-5xl text-center font-bold text-white mb-14">About Me</h2>
     <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-3">
-      <div class="flex justify-center items-center text-center col-span-1 pt-7 lg:pt-10">
+      <div class="flex justify-center items-center text-center col-span-1">
         <img class="object-cover max-w-xs lg:w-auto" src="/images/my_avatar.jpg" title="My avatar" style="border-radius: 5%" alt="My avatar" />
       </div>
       <div class="col-span-1 lg:col-span-2 flex justify-center items-center">
@@ -66,7 +66,7 @@
       </div>
     </div>       
   </div>
-  <div class="absolute inset-0 bg-white opacity-25 z-0"></div>
+  <div class="absolute inset-0 bg-white opacity-25"></div>
 </section>
 <!-- about me ./ -->
 
@@ -86,6 +86,33 @@
 </section>
 <!-- contact ./ -->
 
+<!-- footer -->
+<footer class="relative bg-forest min-h-[300px] pt-12 pb-12 flex flex-row justify-center items-center">
+  <div class="w-[60%] flex flex-col justify-center items-center z-20">
+    <ul class="flex flex-row">
+      <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+        <a href="https://join.skype.com/invite/yvDbcB0CtazL" target="_blank">
+          <img class="w-14 grayscale hover:grayscale-0" src="/images/skype_icon.png">
+        </a>
+      </li>
+      <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+        <a href="https://zalo.me/0905323959" target="_blank">
+          <img class="w-14 grayscale hover:grayscale-0" src="/images/zalo_icon.png" />
+        </a>
+      </li>
+      <li class="pl-4 pr-4 cursor-pointer hover:-translate-y-2">
+        <a href="https://github.com/Thuhuong554/" target="_blank">
+          <img class="w-14 grayscale hover:grayscale-10" src="/images/github_icon.png" />
+        </a>
+      </li>
+    </ul>
+
+    <hr class="w-1/2 border-gray-500 mt-10"/>
+    <p class="text-lg text-gray-500 mt-5">©2024 - Huong Duong Thu</p>
+  </div>
+  <div class="absolute inset-0 bg-black opacity-30"></div>
+</footer>
+<!-- footer ./ -->
 
   <script type="module" src="/src/scripts/application.js"></script>
 </body>
